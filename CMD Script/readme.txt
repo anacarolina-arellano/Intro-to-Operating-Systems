@@ -31,10 +31,19 @@ https://stackoverflow.com/questions/9307187/how-to-find-the-number-of-occurrence
 
 # Download/Install
 ---------------------------------------
-Download the 
-
-
+Download the file generateBuild.cmd from moodle and save it in the same folder
+where the file "StudioPoseOLAF.obj" and "CatchingAHorse.zip" are.
 
 # *** How to use ***
 ---------------------------------------
-<Instructions on how to use the app - edit and replace this line>
+- In your windows terminal go to the directory in which you want the "Builds"
+folder to be placed. 
+
+- Make sure that the two files ("StudioPoseOLAF.obj" and "CatchingAHorse.zip") are
+in the same directory.
+
+- In your terminal run "generateBuild.cmd" and press enter.
+
+- You should see in your terminal that the "Builds" directory was created and that 
+both files where copies into it. At the end you will se the total count of "v"
+occurrences.
